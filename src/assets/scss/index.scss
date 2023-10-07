@@ -1,0 +1,29 @@
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+   'white': #ffffff,
+                        'black':#000000 ,
+                        'primary': (
+                                'base': #3898f8,
+                        ),
+                        'success': (
+                                'base': #67c23a,
+                        ),
+                        'warning': (
+                                'base': #b26d00,
+                        ),
+                        'danger': (
+                                'base': #ff1616,
+                        ),
+                        'error': (
+                                'base': #ff1616,
+                        ),
+                        'info': (
+                                'base': #303030,
+                        ),
+              )
+);
+@use "element-plus/theme-chalk/src/index.scss" as *;
+#app {
+  padding: 0;
+}

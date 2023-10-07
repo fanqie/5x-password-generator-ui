@@ -1,0 +1,30 @@
+{
+  "name": "5x-password-generator-ui",
+  "description": "This is a powerful password generator web page built with Vue 3 .",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "5x-random-str": "^1.0.0",
+    "check-password-strength": "^2.0.7",
+    "copy-to-clipboard": "^3.3.2",
+    "element-plus": "^2.2.19",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "unplugin-element-plus": "^0.4.1",
+    "vite": "^3.1.0"
+  }
+}

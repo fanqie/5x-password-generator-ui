@@ -1,0 +1,32 @@
+export default {
+    copySuccess:"复制成功",
+    refresh:"刷新",
+    copy:"复制",
+    pwd:{
+        title:"密码生成器",
+        charsList:[
+            "ABC",
+            "abc",
+            "123",
+            "#$%^&*_",
+            "+-.(~)[]?[,",
+        ],
+        strongResult:[
+            "轻松破解",
+            "一般",
+            "破解时长：≈1,254,545年",
+            "破解时长：≈103,243,954,545年"
+        ],
+        length:"密码长度",
+        charInclude:"字符包含",
+        generateResult:"生成结果",
+        prefix:"密码前缀",
+        prefix_placeholder:"输入‘_prefix’,生成结果为prefix_${pwd}",
+        suffix:"密码后缀",
+        suffix_placeholder:"输入‘_suffix’,生成结果为${pwd}_suffix",
+        firstChar:"指定首字母",
+        strength:"密码强度",
+        no:"无",
+
+    }
+}
