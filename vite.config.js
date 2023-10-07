@@ -7,7 +7,7 @@ const timestamp = new Date().getTime()
 export default defineConfig({
     plugins: [vue()
        ],
-
+    base: './',
     build: {
         outDir:"docs",
         target: "esnext",
