@@ -7,7 +7,9 @@ const timestamp = new Date().getTime()
 export default defineConfig({
     plugins: [vue()
        ],
+
     build: {
+        outDir:"docs",
         target: "esnext",
         cssCodeSplit: true,
         rollupOptions: {
